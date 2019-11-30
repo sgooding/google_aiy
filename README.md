@@ -1,6 +1,8 @@
 # google_aiy
 Just a few notes on setting up the aiy voice kit on a pi-zero w.
 
+
+
 1) Main Page [AIY Voice Kit](https://aiyprojects.withgoogle.com/voice/) and setup credentials.
 2) Fix Pulse Audio
 ```
@@ -24,5 +26,8 @@ cd /home/pi/AIY-voice-kit-python/src/examples/voice
 #
 # Start right now:
 #    sudo systemctl start assistant_grpc_demo.service
-
 ```
+# References
+
+* [AIY Voice Kit](https://aiyprojects.withgoogle.com/voice/) - Voice kit manual
+* [aiyprojects-raspbian](https://github.com/google/aiyprojects-raspbian/releases) - Raspberry Pi Images
